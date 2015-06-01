@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.cranberrygame.cordova.plugin.ad.admob.iad"
+    version="1.0.0">
+	
+    <name>Cordova Admob-iAd Mediation Plugin</name>
+    <description>Cordova Admob-iAd Mediation Plugin</description>
+    <author>Sang Ki Kwon (Cranberrygame)</author>		
+    <license>MIT</license>
+    <keywords>cordova,plugin,ad,admob,monetisation,iad,mediation</keywords>
+    <repo>https://github.com/cranberrygame/cordova-plugin-ad-admob</repo>
+    <issue>https://github.com/cranberrygame/cordova-plugin-ad-admob/issues</issue> 	
+	<engines>
+	    <engine name="cordova" version=">=3.0.0" />
+	</engines>
+
+    <platform name="ios">    
+	    <framework src="iAd.framework"/>
+	    <source-file src="src/ios/libAdapterIAd.a" framework="true"/>
+	</platform>
+
+	<dependency id="com.cranberrygame.cordova.plugin.ad.admob" url="https://github.com/cranberrygame/cordova-plugin-ad-admob" />
+</plugin>
