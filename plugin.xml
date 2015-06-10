@@ -19,7 +19,12 @@
 	    <source-file src="src/ios/libAdapterIAd.a" framework="true"/>
 
 		<!-- dependency -->
+<!--		
 	    <framework src="iAd.framework"/>
+		<framework src="AdSupport.framework" />
+-->
+		<!-- dependency -->
+		<dependency id="com.cranberrygame.cordova.plugin.ad.iad" url="https://github.com/cranberrygame/cordova-plugin-ad-iad" />		
 	</platform>
 	
 	<!-- dependency -->
